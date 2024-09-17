@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Free Code Camp</title>
+    <link rel="stylesheet" href="style.css">
+
+ 
+</head>
+<body>
+
+<!----------------Heading Area--------------- -->
+
+    <center><h1>FreeCodeCamp Survey Form</h1></center>
+    <center><p><i>Thank you for taking the time to help us improve the platform</i></p></center>
+
+
+<!-------------Survey Form Start---------------->
+
+    <div class="outer">
+        <form id="Survey-form">
+            <label for="Name"><h3>Name</h3></label>
+            <input type="text" id="text1" placeholder="Enter your name" required>
+
+            <label for="Email"><h3>Email</h3></label>
+            <input type="email" name="Email" id="text1" placeholder="Enter your Email" required>
+
+            <label for="Age"><h3>Age (optional)</h3></label>
+            <input type="age" name="age" id="text1" placeholder="Age"> <br> <br>
+
+            <!------------Select Option Area 1------------>
+
+            <label for="Current role"><h3>Which option best describes your current role?</h3></label>
+            <select name="Role" id="select-drop-down">
+
+                <option disabled selected value="">Select current role</option>
+                <option value="Student">Student</option>
+
+                <option value="Full-Time-Job">Full Time Job</option>
+
+                <option value="Full-Time-Learner">Full Time Learner</option>
+
+                <option value="Prefer-not-to-say">Prefer not to say</option>
+
+                <option value="Other">Other</option>
+            </select> <br> <br>
+            
+
+            <h3>Would you Recommend <br> freeCodeCamp to a friend?</h3><br>
+
+
+            <!-------------Radio Button----------->
+
+            <label for="Recommendation">
+            <input type="radio" value="Definitely" name="" id="radio" checked>&nbsp;Definitely</label> <br>
+
+            <label for="Recommendation">
+            <input type="radio" value="Maybe" name="" id="radio" >&nbsp;Maybe</label> <br>
+
+            <label for="Recommendation">
+            <input type="radio" value="Not-sure" id="radio" >&nbsp;Not sure</label> <br> <br>
+
+            <!------------Select Option Area 2------------>
+
+            <label for="Favorite"><h3>What is your favorite feature of freeCodeCamp?</h3></label>
+            <select name="Favorite-Functionality" id="select-drop-down" required>    
+                <option disabled selected value>Select an option</option>      
+                <option value="Challenges">Challenges</option>
+                <option value="Projects">Projects</option>
+                <option value="Community">Community</option>
+                <option value="Open-Source">Open Source</option>
+            </select> <br> <br>
+
+            <label for="improvement"><h3>What would you like to see improved?</h3><h4>(Check all that apply)</h4></label> <br>
+
+            <!------------Checkbox Button----------->
+
+            <input type="checkbox" value="Front-end-Projects" >&nbsp;Front-end Projects <br>
+            <input type="checkbox" value="Back-end-Projects" >&nbsp;Back-end Projects <br>
+            <input type="checkbox" value="Data-Visulization" >&nbsp;Data Visualization <br>
+            <input type="checkbox" value="Challenges">&nbsp;Challenges <br>
+            <input type="checkbox" value="Open-Source-Community" name="" >&nbsp;Open Source Community <br>
+            <input type="checkbox" value="Gitter-help-rooms" >&nbsp;Gitter help rooms <br>
+
+            <input type="checkbox" value="Videos" >&nbsp;Videos <br>
+
+            <input type="checkbox" value="City-Meetups" >&nbsp;City Meetups <br>
+
+            <input type="checkbox" value="Wiki" >&nbsp;Wiki <br>
+
+            <input type="checkbox" value="Forum" >&nbsp;Forum <br>
+
+            <input type="checkbox" value="Additional-Courses" >&nbsp;Additional Courses <br> <br>
+
+            <!-------------Suggestion Area------------->
+
+            <label for="sugestions"><h3>Any comments or suggestions?</h3></label>
+            <textarea name="comment" id="text3" placeholder="Enter your comment here..."></textarea> <br> <br>
+            
+            <!---------Form Submit Area----------->
+
+            <input type="submit" value="Submit" id="button">
+            
+            <button id="Top"><a href="#">^</a></button>
+        </form>
+        
+    </div>
+
+<!----------------Survey Form End--------------->
+
+</body>
+
+</html>

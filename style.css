@@ -1,0 +1,139 @@
+:root{
+    --text-fonts : 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    --text-color : white;
+    --bg-color: black;
+    --input-border: border 2px solid crimson;
+    --bg-pnk: linear-gradient(120deg, rgba(225, 22, 184, 0.5),rgba(7, 11, 42, 0.4));
+    --bg-ong: linear-gradient(120deg, rgba(245, 113, 42, 0.544),rgba(7, 11, 42, 0.4));
+}
+
+
+/* --------------universal selector------------- */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+
+body{    
+    background-image: var(--bg-ong), url(img.jpg) 
+    /*Photo by Annie Spratt on Unsplash*/;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+
+h1{
+    margin-top: 50px;
+    color: var(--text-color);
+    font-family: var(--text-fonts);
+}
+
+p{
+    margin-top: 10px;
+    color: var(--text-color);
+    font-family: var(--text-fonts);
+    text-decoration: underline;
+}
+
+
+/* --------------CSS of Form Container class .outer------------- */
+
+.outer{
+    border-radius: 5px;
+    margin-top: 50px;
+    margin-left: 20%;
+    width: 820px;
+    align-items: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: rgba(196, 196, 218, 0.376)
+}
+
+
+/* ----------CSS of Child Survey Form-----------*/
+
+form{
+    /* background-color: var(--bg-ong); */
+    border-radius: 5px;
+    margin: 2%;
+    padding: 2%;
+    font-family: var(--text-fonts);
+}
+
+input{
+    margin-top: 10px;
+    margin-bottom:20px;
+    
+}
+#checkbox{
+    margin-left: 5px;
+}
+
+#select-drop-down{
+    margin-top: 10px;
+    border-radius: 5px;
+    height: 40px;
+    width: 100%;
+    padding: 5px;
+    margin-bottom:20px;
+    font-family: var(--text-fonts);
+    border: var(--input-border);
+}
+
+#text1{
+    border-radius: 5px;
+    height: 40px;
+    width: 100%;
+    padding: 10px;
+    border: var(--input-border);
+}
+
+#text2{
+    padding: 10px;
+}
+
+#text3{
+    border-radius: 5px;
+    height: 120px;
+    width: 100%;
+    padding: 5px;
+    margin-top: 10px;
+    font-family: var(--text-fonts);
+    border: var(--input-border);
+}
+
+
+/* ---------------Button CSS----------------- */
+
+#button{
+    background-color: rgb(10, 90, 229);
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+    height: 45px;
+    width: 100%;
+    cursor: pointer;
+}
+
+#Top{
+    height: 40px;
+    width: 40px;
+    border-radius: 10px;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    float: right;
+    font-size: 20px;
+}
+
+
+/* --------------End of CSS------------- */
+    
